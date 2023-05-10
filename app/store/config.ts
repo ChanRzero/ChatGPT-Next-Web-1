@@ -17,7 +17,7 @@ export enum Theme {
 }
 
 export const DEFAULT_CONFIG = {
-  submitKey: SubmitKey.CtrlEnter as SubmitKey,
+  submitKey: SubmitKey.Enter as SubmitKey,
   avatar: "1f603",
   fontSize: 14,
   theme: Theme.Auto as Theme,
@@ -77,15 +77,15 @@ export const ALL_MODELS = [
     available: true,
   },
   {
-    name: "qwen-v1", // 通义千问
+    name: "通义千问", // 通义千问
     available: false,
   },
   {
-    name: "ernie", // 文心一言
+    name: "文心一言", // 文心一言
     available: false,
   },
   {
-    name: "spark", // 讯飞星火
+    name: "讯飞星火", // 讯飞星火
     available: false,
   },
   {
